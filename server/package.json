@@ -1,0 +1,25 @@
+{
+	"name": "graphql-max",
+	"version": "1.0.0",
+	"description": "Build a Project with GraphQL, Node, MongoDB and ReactJS",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"author": "sumit singh",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dataloader": "^1.4.0",
+		"express": "^4.17.1",
+		"express-graphql": "^0.9.0",
+		"graphql": "^14.5.7",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.7.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.2"
+	}
+}
